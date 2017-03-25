@@ -9,3 +9,5 @@ The directory Matlab contains two versions of the datatset:
  - gsp_molene_data to use with the [GSPbox](https://github.com/epfl-lts2/gspbox) toolbox
 
 In both cases, the data is organized as a cell array of 3 graphs, each correponding to one kind of data (wind, temperature and rain). This maximizes the number of stations with complete data on the period, as not all reading are complete for all three kind. For each graph, the fields data_name and data contain two cell arrays of identical size respectively describing the exact data field and the data itself.
+
+If you use this dataset in a scientific communication, kindly cite my [EUSIPCO 2015 paper](https://doi.org/10.1109/EUSIPCO.2015.7362637).
